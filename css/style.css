@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "";
+  src: url("./fonts/MUSEOSANS-500.OTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+body {
+  background-color: #1F1B44;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #E76625;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.py-6 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important ;
+}
+.py7 {
+  padding-top: 9rem !important;
+  padding-bottom: 9rem !important ;
+}
+
+.size-btn {
+  width: fit-content;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #E76625;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+  background-color: #E76625;
+  color: #FFFFFF;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary {
+  background-color: #E76625;
+  color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+  opacity: 0.8;
+  background-color: #E76625;
+  color: #FFFFFF;
+  transition: background-color 0.3s ease;
+}
+
+#insidehero {
+  background-color: rgba(31, 27, 68, 0.7);
+  border-radius: 0;
+  backdrop-filter: blur(5px);
+}
+
+#about,
+#collaborators {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#aboutcover,
+#featurecover {
+  background-color: #1F1B44;
+}
+
+.bg-light {
+  background-image: url("../images/fundo.jpg");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.bg-light p {
+  color: #1F1B44;
+}
+p.pop-up {
+  color: #FFFFFF;
+}
+
+#contact {
+  background-color: #1F1B44;
+}
+
+
+#mainnav {
+  background-color: #1F1B44;
+}
+
+#mainnav .navbar-nav .nav-link {
+  color: #FFFFFF;
+  transition: color 0.3s ease;
+}
+
+#mainnav .navbar-nav .nav-link:hover {
+  opacity: 0.6;
+}
+.navbar-brand {
+  color: #17162B;
+}
+.navbar-brand:hover {
+  color: #17162B;
+}
+
+#contact h5,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#contacticons a {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+#contactcard {
+  background-color: #1F1B44;
+  border: none;
+}
+#contactcard label {
+  color: white;
+}
+
+#collaborators a {
+  font-size: 2rem;
+}
+
+#aboutlogo a {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: #E76625;
+  border: 3px solid #E76625;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.back-to-top i {
+  font-size: 24px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffa500;
+}
+
+.form-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.form-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 2rem;
+}
+.form-select::after {
+  content: "▼";
+  position: absolute;
+  right: 0.5rem;
+  pointer-events: none;
+}
+
+/* galeria */
+
+.galery-img:hover {
+  opacity: 0.6;
+}
