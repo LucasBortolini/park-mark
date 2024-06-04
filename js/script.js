@@ -40,6 +40,7 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+// phone mask
 const handlePhone = (event) => {
     let input = event.target
     input.value = phoneMask(input.value)
@@ -53,7 +54,7 @@ const handlePhone = (event) => {
     return value
   }
 
-
+// galery config
 lightbox.option({
     'disableScrolling': true
 })
