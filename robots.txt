@@ -1,0 +1,21 @@
+# Arquivo robots.txt para o site Park-Mark
+
+# Bloqueia todos os robôs de acessar as páginas da área administrativa
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /images/
+Disallow: /css/
+Disallow: /js/
+
+# Bloqueia todos os robôs de acessar arquivos sensíveis
+Disallow: /confidential/
+Disallow: /private/
+Disallow: /temp/
+
+# Permite o acesso a todas as outras páginas
+Allow: /
+
+# Sitemap do site
+Sitemap: https://park-mark.vercel.app/sitemap.xml
