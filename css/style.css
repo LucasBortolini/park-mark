@@ -112,7 +112,7 @@ p {
 }
 
 .bg-light {
-  background-image: url("../images/fundo.webp");
+  background-image: url("../images/bg.webp");
   background-position: center;
   background-repeat: repeat;
 }
