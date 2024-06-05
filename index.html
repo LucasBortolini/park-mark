@@ -12,40 +12,51 @@
 </head>
 <body>
     <!-- Header -->
-    <nav id="mainnav" class="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+    <nav id="header" class="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./images/menu_icon.png" alt="Logo Park Mark" width="100"
-                    class="d-inline-block">
+                <img src="./images/menu_icon.png" class="d-inline-block" alt="Logo Park Mark" width="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#about">Quem Somos</a>
+                        <a class="nav-link fw-bold" href="#about">
+                            Quem Somos
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#services">Segmentos</a>
+                        <a class="nav-link fw-bold" href="#services">
+                            Segmentos
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#collaborators">Colaboradores</a>
+                        <a class="nav-link fw-bold" href="#collaborators">
+                            Colaboradores
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#solutions">Soluções</a>
+                        <a class="nav-link fw-bold" href="#solutions">
+                            Soluções
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#galery">Galeria</a>
+                        <a class="nav-link fw-bold" href="#galery">
+                            Galeria
+                        </a>
                     </li>
                     <li class="d-block d-lg-none nav-item">
-                        <a class="nav-link fw-bold" href="#contact">Contato</a>
+                        <a class="nav-link fw-bold" href="#contact">
+                            Contato
+                        </a>
                     </li>
                 </ul>
                 <a class="d-none d-lg-block btn btn-primary size-btn fw-bold" href="#contact" role="button">
-                    <img class="me-1" src="./images/icons/white-arrow.svg" alt="Seta branca" width="24">
+                    <img src="./images/icons/white-arrow.svg" class="me-1" alt="Seta branca" width="24">
                     Contato
                 </a>                
             </div>
@@ -55,25 +66,27 @@
     <div id="banner" class="bg-light py-5">
         <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class="d-flex justify-content-center align-items-center">
-                <img class="me-2" src="./images/logo.png" alt="Logo Park Mark" width="160">
+                <img src="./images/logo.png" class="me-2" alt="Logo Park Mark" width="160">
             </div>
-            <div id="inside-banner" class="col-12 col p-3 my-5 blurred-content banner">
-                  <img src="./images/banner.jpg" alt="Carro e família no estacionamento" class="col-12">
+            <div id="inside-banner" class="col-12 col blurred-content p-3 my-5 banner">
+                <img src="./images/banner.jpg" class="col-12" alt="Carro e família no estacionamento">
             </div>
         </div>
     </div>
     <!-- About -->
-    <div class="scroll-reveal" id="about">
-        <div id="aboutcover" class="py-5">
+    <div id="about" class="scroll-reveal">
+        <div class="py-5">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center">
-                    <img class="me-2" src="./images/icons/white-arrow.svg" alt="Seta branca" width="28">
-                    <h1 class="fw-bold mb-0">Quem Somos</h1>
+                    <img src="./images/icons/white-arrow.svg" class="me-2" alt="Seta branca" width="28">
+                    <h1 class="mb-0 fw-bold">
+                        Quem Somos
+                    </h1>
                 </div>
                 <div class="row pt-5 py-md-5">
-                    <div class="d-flex justify-content-center align-items-center col-lg-6 text-center order-lg-2">
-                        <img width="440" class="col-12 d-block d-lg-none" src="./images/quem-somos.png" alt="Quem somos">
-                        <img width="440" class="d-none d-lg-block" src="./images/quem-somos_2.png" alt="Quem somos">
+                    <div class="col-lg-6 order-lg-2 d-flex justify-content-center align-items-center text-center">
+                        <img src="./images/quem-somos.png" class="col-12 d-block d-lg-none" alt="Quem somos" width="440">
+                        <img src="./images/quem-somos_2.png" class="d-none d-lg-block" alt="Quem somos" width="440">
                     </div>
                     <div class="col-lg-6 order-md-1 pe-4 mt-5">
                         <p>
@@ -91,20 +104,21 @@
                         <p>
                             Nossos clientes e parceiros contam com apólice de seguros na modalidade RC Garagista, com garantia contra roubo, incêndio e colisão para todos os veículos estacionados em nossas unidades. Essa cobertura proporciona tranquilidade e segurança para todos que utilizam nossos serviços.
                         </p>
-                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Segments -->
-    <div id="services" class="bg-light py-5 scroll-reveal">
+    <div id="services" class="bg-light scroll-reveal py-5">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <img class="me-2" src="./images/icons/orange-arrow.svg" alt="Seta laranja" width="28">
-                <h1 class="fw-bold mb-0">Segmentos de Atuação</h1>
+                <img src="./images/icons/orange-arrow.svg" class="me-2" alt="Seta laranja" width="28">
+                <h1 class="fw-bold mb-0">
+                    Segmentos de Atuação
+                </h1>
             </div>
-            <div class=" text-center py-5">
+            <div class="py-5 text-center">
                 <div class="row">
                     <div class="col-md-4">
                         <img src="./images/icons/segments/garage.svg" alt="Garagens comerciais e residenciais" width="100">
@@ -147,19 +161,21 @@
         </div>
     </div>
     <!-- Collaborators -->
-    <div class="scroll-reveal" id="collaborators">
-        <div id="aboutcover" class="py-5">
+    <div id="collaborators" class="scroll-reveal">
+        <div class="py-5">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center">
-                    <img class="me-2" src="./images/icons/white-arrow.svg" alt="Seta branca" width="28">
-                    <h1 class="fw-bold mb-0">Nossos Colaboradores</h1>
+                    <img src="./images/icons/white-arrow.svg" class="me-2" alt="Seta branca" width="28">
+                    <h1 class="fw-bold mb-0">
+                        Nossos Colaboradores
+                    </h1>
                 </div>
                 <div class="row py-5">
                     <div class="col-lg-6 d-flex align-items-center text-center order-lg-1">
-                        <img width="360" class="d-none d-lg-block" src="./images/collaborators.png" alt="Colaboradores no posto de trabalho">
+                        <img src="./images/collaborators.png" class="d-none d-lg-block" alt="Colaboradores no posto de trabalho" width="360">
                     </div>
                     <div class="d-flex flex-column justify-content-center justify-content-md-between align-items-center col-lg-6 order-lg-2">
-                        <p class="text-center mb-5 mb-lg-0">
+                        <p class="mb-5 mb-lg-0 text-center">
                             São escolhidos conforme as competências necessárias para cada função, 
                             recebem treinamento adequado passando por processo de integração e assimilação da cultura 
                             de excelência de nossa empresa com foco na satisfação dos nossos clientes. Nossa equipe especializada
@@ -171,7 +187,7 @@
                             clientes.
                         </p>
                         <div>
-                            <img width="240" src="./images/collaborators_2.png" class="col-12" alt="Colaboradores no posto de trabalho 2">
+                            <img src="./images/collaborators_2.png" class="col-12" alt="Colaboradores no posto de trabalho 2" width="240">
                         </div>
                     </div>
                 </div>
@@ -179,13 +195,15 @@
         </div>
     </div>
     <!-- Soluctions -->
-    <div id="solutions" class="bg-light py-5 scroll-reveal">
+    <div id="solutions" class="bg-light scroll-reveal py-5">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <img class="me-2" src="./images/icons/orange-arrow.svg" alt="Seta laranja" width="28">
-                <h1 class="fw-bold mb-0">Soluções</h1>
+                <img src="./images/icons/orange-arrow.svg" class="me-2" alt="Seta laranja" width="28">
+                <h1 class="mb-0 fw-bold">
+                    Soluções
+                </h1>
             </div>
-            <div class=" text-center py-5">
+            <div class="py-5 text-center">
                 <div class="row">
                     <div class="col-md-4">
                         <img src="./images/icons/soluctions/adms.svg" alt="Administração e terceirização de estacionamentos" width="100">
@@ -224,11 +242,13 @@
         </div>        
     </div>
     <!-- Contact -->
-    <div id="contact" class="py-5 scroll-reveal">
+    <div id="contact" class="scroll-reveal py-5">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <img class="me-2" src="./images/icons/white-arrow.svg" alt="Seta laranja" width="28">
-                <h1 class="fw-bold mb-0">Contato</h1>
+                <img src="./images/icons/white-arrow.svg" class="me-2" alt="Seta laranja" width="28">
+                <h1 class="mb-0 fw-bold">
+                    Contato
+                </h1>
             </div>
             <div class="row py-5">
                 <div class="col-md-6">
@@ -236,38 +256,58 @@
                         <div class="card-body">
                             <form id="Contactform" action="https://formsubmit.co/saleslucas99@gmail.com" method="post">
                                 <div class="mb-3">
-                                    <label for="name" class="form-label">Nome</label>
-                                    <input type="text" name="nome" class="form-control" id="name" required>
+                                    <label for="name" class="form-label">
+                                        Nome
+                                    </label>
+                                    <input id="name" type="text" name="nome" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">E-mail</label>
-                                    <input type="email" name="E-mail" class="form-control" id="email" required>
+                                    <label for="email" class="form-label">
+                                        E-mail
+                                    </label>
+                                    <input id="email" type="email" name="E-mail" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="phone" class="form-label">Telefone</label>
-                                    <input type="tel" name="telefone" class="form-control" id="phone" maxlength="15" onkeyup="handlePhone(event)" required>
+                                    <label for="phone" class="form-label">
+                                        Telefone
+                                    </label>
+                                    <input id="phone" type="tel" name="telefone" class="form-control" maxlength="15" onkeyup="handlePhone(event)" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="reason" class="form-label">Motivo do Contato</label>
-                                    <select name="motivo" class="form-select" id="reason" required>
+                                    <label for="reason" class="form-label">
+                                        Motivo do Contato
+                                     </label>
+                                    <select id="reason" name="motivo" class="form-select" required>
                                         <option value=""></option>
-                                        <option value="duvidas">Segunda Via de Boleto</option>
-                                        <option value="segunda_via_boleto">Cadastro</option>
-                                        <option value="sugestoes">Sugestões/Reclamações</option>
-                                        <option value="reclamacoes">Outros</option>
+                                        <option value="duvidas">
+                                            Segunda Via de Boleto
+                                        </option>
+                                        <option value="segunda_via_boleto">
+                                            Cadastro
+                                        </option>
+                                        <option value="sugestoes">
+                                            Sugestões/Reclamações
+                                        </option>
+                                        <option value="reclamacoes">
+                                            Outros
+                                        </option>
                                     </select>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="unit" class="form-label">Endereço da Unidade</label>
-                                    <input type="text" name="unidade" class="form-control" id="unit" required>
+                                    <label for="unit" class="form-label">
+                                        Endereço da Unidade
+                                    </label>
+                                    <input id="unit" type="text" name="unidade" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="message" class="form-label">Mensagem</label>
-                                    <textarea name="mensagem" class="form-control" id="message" rows="3"></textarea>
+                                    <label for="message" class="form-label">
+                                        Mensagem
+                                    </label>
+                                    <textarea id="message" name="mensagem" class="form-control" rows="3"></textarea>
                                 </div>
                                 <input type="hidden" name="_captcha" value="false">
                                 <button type="submit" class="d-flex align-items-center btn btn-secondary fw-bold">
-                                    <img class="me-2" src="./images/icons/white-arrow.svg" alt="Seta branca" width="24">
+                                    <img src="./images/icons/white-arrow.svg" class="me-2" alt="Seta branca" width="24">
                                     Enviar
                                 </button>
                             </form>                            
@@ -275,13 +315,26 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h4 class="mt-4">Telefone</h4>
-                    <h5> <a href=""> <span class="me-5"> (11) 94286-1818</span>
-                        </a></h5>
-                    <h4 class="mt-4">Email</h4>
-                    <h5>sac@parkmark.com.br</h5>
+                    <h4 class="mt-4">
+                        Telefone
+                    </h4>
+                    <h5>
+                        <a href="">
+                            <span class="me-5">
+                                (11) 94286-1818
+                            </span>
+                        </a>
+                    </h5>
+                    <h4 class="mt-4">
+                        Email
+                    </h4>
+                    <h5>
+                        sac@parkmark.com.br
+                    </h5>
                     <div id="contacticons" class="mt-4">
-                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -291,10 +344,12 @@
     <div id="galery" class="bg-light py-5">
         <div class="container d-flex flex-column align-items-center">
             <div class="d-flex justify-content-center align-items-center">
-                <img class="me-2" src="./images/icons/orange-arrow.svg" alt="Seta laranja" width="28">
-                <h1 class="fw-bold mb-0">Galeria de fotos</h1>
+                <img src="./images/icons/orange-arrow.svg" class="me-2" alt="Seta laranja" width="28">
+                <h1 class="fw-bold mb-0">
+                    Galeria de fotos
+                </h1>
             </div>
-            <div id="inside-galery" class="p-3 py-5 my-5 p-md-5 blurred-content galery">
+            <div id="inside-galery" class="blurred-content p-3 py-5 my-5 p-md-5 galery">
                 <div class="container text-center">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
                         <div class="col py-1">
@@ -345,14 +400,19 @@
     <div class="scroll-reveal" id="footer">
         <div class="container">
             <div class="py-3 text-center">
-                <p class="my-2">© 2024 Tish Code. Todos os Direitos Reservados.</p>
+                <p class="my-2">
+                    © 2024 Tish Code. Todos os Direitos Reservados.
+                </p>
             </div>
         </div>
     </div>
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTopBtn">
-        <img src="./images/icons/orange-arrow-up.svg" width="16" alt="Seta laranja para cima">
+        <img src="./images/icons/orange-arrow-up.svg" alt="Seta laranja para cima" width="16">
     </button>
+
+
+    <!-- Links -->
     <link rel="shortcut icon" type="image/x-icon" href="./images/icons/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
