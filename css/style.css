@@ -103,10 +103,6 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#aboutcover,
-#featurecover {
-  background-color: #1F1B44;
-}
 
 .bg-light {
   background-image: url("../images/fundo.jpg");
@@ -126,16 +122,16 @@ p.pop-up {
 }
 
 
-#mainnav {
+#header {
   background-color: #1F1B44;
 }
 
-#mainnav .navbar-nav .nav-link {
+#header .navbar-nav .nav-link {
   color: #FFFFFF;
   transition: color 0.3s ease;
 }
 
-#mainnav .navbar-nav .nav-link:hover {
+#header .navbar-nav .nav-link:hover {
   opacity: 0.6;
 }
 .navbar-brand {
