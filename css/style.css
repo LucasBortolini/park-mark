@@ -41,14 +41,6 @@ p {
   padding-top: 6rem !important;
   padding-bottom: 6rem !important ;
 }
-.py7 {
-  padding-top: 9rem !important;
-  padding-bottom: 9rem !important ;
-}
-
-.size-btn {
-  width: fit-content;
-}
 
 .btn {
   padding: 10px 16px;
@@ -81,6 +73,10 @@ p {
   background-color: #E76625;
   color: #FFFFFF;
   transition: background-color 0.3s ease;
+}
+
+.size-btn {
+  width: fit-content;
 }
 
 .banner {
@@ -149,7 +145,6 @@ a {
 
 #contacticons a {
   font-size: 2rem;
-  margin-right: 1rem;
 }
 
 #contactcard {
@@ -219,8 +214,6 @@ a {
   right: 0.5rem;
   pointer-events: none;
 }
-
-/* galeria */
 
 .galery-img:hover {
   opacity: 0.6;
