@@ -29,8 +29,19 @@ h6 {
   font-size: 28px;
 }
 
-h4 {
-  font-size: 16px;
+#services p {
+  font-size: 18px;
+  color: #E76625;
+}
+
+#solutions p {
+  font-size: 18px;
+  color: #E76625;
+}
+
+#contact p {
+  font-size: 18px;
+  color: #E76625;
 }
 
 p {
@@ -137,7 +148,13 @@ p.pop-up {
   color: #17162B;
 }
 
-#contact h5,
+#contact h2,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact h3,
 a {
   color: white;
   text-decoration: none;
