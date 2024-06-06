@@ -259,26 +259,26 @@
                                     <label for="name" class="form-label">
                                         Nome
                                     </label>
-                                    <input id="name" type="text" name="nome" class="form-control" required>
+                                    <input id="name" type="text" name="nome" placeholder="Nome" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="email" class="form-label">
                                         E-mail
                                     </label>
-                                    <input id="email" type="email" name="email" class="form-control" required>
+                                    <input id="email" type="email" name="email" placeholder="E-mail" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="phone" class="form-label">
                                         Telefone
                                     </label>
-                                    <input id="phone" type="tel" name="telefone" class="form-control" maxlength="15" onkeyup="handlePhone(event)" required>
+                                    <input id="phone" type="tel" name="telefone" placeholder="Telefone" class="form-control" maxlength="15" onkeyup="handlePhone(event)" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="reason" class="form-label">
                                         Motivo do Contato
                                     </label>
                                     <select id="reason" name="motivo" class="form-select" required>
-                                        <option value=""></option>
+                                        <option value="">-</option>
                                         <option value="duvidas">
                                             Segunda Via de Boleto
                                         </option>
@@ -297,17 +297,17 @@
                                     <label for="unit" class="form-label">
                                         Endereço da Unidade
                                     </label>
-                                    <input id="unit" type="text" name="unidade" class="form-control" required>
+                                    <input id="unit" type="text" name="unidade" placeholder="Endereço" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="message" class="form-label">
                                         Mensagem
                                     </label>
-                                    <textarea id="message" name="mensagem" class="form-control" rows="3"></textarea>
+                                    <textarea id="message" name="mensagem" placeholder="Digite sua mensagem" class="form-control" rows="3"></textarea>
                                 </div>
                                 <!-- configurações do formulario -->
                                 <input type="hidden" name="_captcha" value="false">
-                                <input type="hidden" name="_autoresponse" value="Obrigado por entrar em contato, nosso time de especialistas está avaliando seu caso e responderemos o mais breve possível!">
+                                <!-- <input type="hidden" name="_autoresponse" value="Obrigado por entrar em contato, nosso time de especialistas está avaliando seu caso e responderemos o mais breve possível!"> -->
                                 <input type="hidden" name="_template" value="table">
                                 <!-- fim -->
                                 <button type="submit" name="submit" value="submit" class="d-flex align-items-center btn btn-secondary fw-bold">
