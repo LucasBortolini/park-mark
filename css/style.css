@@ -177,6 +177,18 @@ a {
   margin-right: 1rem;
 }
 
+.big-icon {
+  width: 100px;
+}
+
+.arrow {
+  width: 28px;
+}
+
+.btn-arrow {
+  width: 24px;
+}
+
 .back-to-top {
   position: fixed;
   bottom: 14px;
@@ -230,4 +242,28 @@ a {
 
 .galery-img:hover {
   opacity: 0.6;
+}
+
+.galery-img-size {
+  width: 246px;
+}
+
+.about-img {
+  width: 440px;
+}
+
+.collaborators-img {
+  width: 360px;
+}
+
+.collaborators-2-img {
+  width: 240px;
+}
+
+.arrow-up {
+  width: 16px;
+}
+
+.logo-banner {
+  width: 160px;
 }
