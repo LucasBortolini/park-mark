@@ -18,4 +18,4 @@ Disallow: /temp/
 Allow: /
 
 # Sitemap do site
-Sitemap: https://park-mark.vercel.app/sitemap.xml
+Sitemap: https://www.parkmark.com.br/sitemap.xml
