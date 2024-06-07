@@ -192,7 +192,7 @@ a {
 .back-to-top {
   position: fixed;
   bottom: 14px;
-  right: 14px;
+  right: 42px;
   width: 40px;
   height: 40px;
   background-color: transparent;
@@ -254,10 +254,6 @@ a {
 
 .collaborators-img {
   width: 360px;
-}
-
-.collaborators-2-img {
-  width: 240px;
 }
 
 .arrow-up {
