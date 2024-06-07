@@ -269,6 +269,11 @@ a {
   pointer-events: none;
 }
 
+.contact-office span {
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
 .galery-img:hover {
   opacity: 0.6;
 }
