@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @font-face {
   font-family: "";
   src: url("./fonts/MUSEOSANS-500.OTF") format("truetype");
@@ -208,24 +201,6 @@ a {
   width: 24px;
 }
 
-.back-to-top {
-  position: fixed;
-  bottom: 14px;
-  right: 30px;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  color: #E76625;
-  border: 3px solid #E76625;
-  border-radius: 50%;
-  cursor: pointer;
-  display: none;
-}
-
-.back-to-top i {
-  font-size: 24px;
-}
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -292,8 +267,24 @@ a {
   width: 440px;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 14px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  color: #E76625;
+  border: 3px solid #E76625;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  padding: 0;
+}
+
 .arrow-up {
-  width: 16px;
+  height: 40px;
+  max-height: 80%;
 }
 
 .logo-banner {
