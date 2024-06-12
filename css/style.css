@@ -288,6 +288,7 @@ a {
 }
 
 .collaborators-img {
+  max-width: 100%;
   width: 440px;
 }
 
