@@ -31,15 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
-var swiper = new Swiper(".mySwiper", {
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
-
 // phone mask
 const handlePhone = (event) => {
     let input = event.target
